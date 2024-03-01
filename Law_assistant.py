@@ -81,7 +81,7 @@ def main():
         service_context = ServiceContext.from_defaults(
         llm=Gemini(api_key=GOOGLE_API_KEY), embed_model=embed_model
     )
-        s_context = StorageContext.from_defaults(persist_dir=r"C:\Users\XPS\OneDrive - Ecole Centrale Casablanca\Bureau\Hackaton\Meta_Data_Extraction")
+        s_context = StorageContext.from_defaults(persist_dir="Embedding Store")
         
         #s_context = StorageContext.from_defaults(persist_dir=r"C:\Users\XPS\OneDrive - Ecole Centrale Casablanca\Bureau\Hackaton\Meta_Data_Extraction\model_2")
         
