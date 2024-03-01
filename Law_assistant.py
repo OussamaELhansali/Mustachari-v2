@@ -26,8 +26,7 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
 GOOGLE_API_KEY = "AIzaSyCHmmFgBimvvjn_ahULahxEnl76a_pXp8s"  # add your GOOGLE API key here
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-OPENAI_API_KEY = "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"
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
 genai.configure(api_key='AIzaSyCHmmFgBimvvjn_ahULahxEnl76a_pXp8s')
 @st.cache_resource
 def load_model():
