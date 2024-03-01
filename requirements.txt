@@ -1,0 +1,16 @@
+pygame
+google
+streamlit
+SpeechRecognition
+gTTS
+llama-index-core
+llama-index-core-evaluation
+llama-index-llms-openai
+llama-index-core
+llama-index-llms-gemini
+llama-index-vector-stores-qdrant
+llama-index-core
+llama-index-core
+re 
+llama-index-embeddings-huggingface
+llama-index-core
