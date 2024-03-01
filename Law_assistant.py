@@ -65,8 +65,8 @@ def main():
         # Only one candidate for now.
         candidate_count=1,
         temperature=0.0))
-        client = qdrant_client.QdrantClient(path="qdrant_gemini_3")
-        vector_store = QdrantVectorStore(client=client, collection_name="collection")
+        #client = qdrant_client.QdrantClient(path="qdrant_gemini_3")
+        #vector_store = QdrantVectorStore(client=client, collection_name="collection")
         model_1 = HuggingFaceEmbedding(
     model_name="BAAI/bge-small-en-v1.5"
 )
