@@ -4,7 +4,6 @@ streamlit
 SpeechRecognition
 gTTS
 llama-index-core
-llama-index-core-evaluation
 llama-index-llms-openai
 llama-index-core
 llama-index-llms-gemini
