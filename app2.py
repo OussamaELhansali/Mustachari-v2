@@ -12,7 +12,6 @@ import logging
 import sys
 import pandas as pd
 import os
-from functions import get_wikipedia_text
 
 from IPython.display import display
 from IPython.display import Markdown
