@@ -24,7 +24,7 @@ import qdrant_client
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
-GOOGLE_API_KEY = "AIzaSyDqa9JVXL_lTwoBgF6YMHTxMiXgxUfVHQE"  # add your GOOGLE API key here
+GOOGLE_API_KEY = "AIzaSyBKh1k6PdEZ3OIxjgf4q__SRPurr-0SrMc"  # add your GOOGLE API key here
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 genai.configure(api_key='AIzaSyCHmmFgBimvvjn_ahULahxEnl76a_pXp8s')
